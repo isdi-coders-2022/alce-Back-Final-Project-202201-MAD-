@@ -16,8 +16,8 @@
   },
   "homepage": "https://github.com/isdi-coders-2022/alce-Back-Final-Project-202201-MAD-#readme",
   "scripts": {
-    "start": "cross-env NODE_ENV=dev nodemon",
-    "start:build": "cross-env NODE_ENV=prod node index.js",
+    "start": "cross-env NODE_ENV=prod node index.js",
+    "start:dev": "cross-env NODE_ENV=dev nodemon",
     "test": "cross-env NODE_ENV=test jest --watchAll --coverage --runInBand",
     "lint": "eslint"
   },
