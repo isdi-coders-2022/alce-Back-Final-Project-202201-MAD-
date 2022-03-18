@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
   res.status(200).send('Hello World!');
 });
 
-app.use('/user', userRouter);
+app.use('/users', userRouter);
 
 app.use('/', (error, req, res, next) => {
   res.status(500).send(error);
